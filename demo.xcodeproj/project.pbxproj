@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		28C587681E7FBFAC006D0D9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C587671E7FBFAC006D0D9F /* main.m */; };
 		28C5876B1E7FBFAC006D0D9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5876A1E7FBFAC006D0D9F /* AppDelegate.m */; };
-		28C5876E1E7FBFAC006D0D9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5876D1E7FBFAC006D0D9F /* ViewController.m */; };
+		28C5876E1E7FBFAC006D0D9F /* TViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5876D1E7FBFAC006D0D9F /* TViewController.m */; };
 		28C587711E7FBFAC006D0D9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C5876F1E7FBFAC006D0D9F /* Main.storyboard */; };
 		28C587731E7FBFAC006D0D9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28C587721E7FBFAC006D0D9F /* Assets.xcassets */; };
 		28C587761E7FBFAC006D0D9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28C587741E7FBFAC006D0D9F /* LaunchScreen.storyboard */; };
@@ -20,8 +20,8 @@
 		28C587B01E7FBFC8006D0D9F /* YPCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C587A01E7FBFC8006D0D9F /* YPCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28C587B31E7FBFC8006D0D9F /* YPCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C5879E1E7FBFC8006D0D9F /* YPCarthage.framework */; };
 		28C587B41E7FBFC8006D0D9F /* YPCarthage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28C5879E1E7FBFC8006D0D9F /* YPCarthage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		28C587BC1E7FC01A006D0D9F /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C5876C1E7FBFAC006D0D9F /* ViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28C587BD1E7FC020006D0D9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5876D1E7FBFAC006D0D9F /* ViewController.m */; };
+		28C587BC1E7FC01A006D0D9F /* TViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 28C5876C1E7FBFAC006D0D9F /* TViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28C587BD1E7FC020006D0D9F /* TViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C5876D1E7FBFAC006D0D9F /* TViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,8 +81,8 @@
 		28C587671E7FBFAC006D0D9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28C587691E7FBFAC006D0D9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28C5876A1E7FBFAC006D0D9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		28C5876C1E7FBFAC006D0D9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		28C5876D1E7FBFAC006D0D9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28C5876C1E7FBFAC006D0D9F /* TViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TViewController.h; sourceTree = "<group>"; };
+		28C5876D1E7FBFAC006D0D9F /* TViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TViewController.m; sourceTree = "<group>"; };
 		28C587701E7FBFAC006D0D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28C587721E7FBFAC006D0D9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28C587751E7FBFAC006D0D9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -171,8 +171,8 @@
 			children = (
 				28C587691E7FBFAC006D0D9F /* AppDelegate.h */,
 				28C5876A1E7FBFAC006D0D9F /* AppDelegate.m */,
-				28C5876C1E7FBFAC006D0D9F /* ViewController.h */,
-				28C5876D1E7FBFAC006D0D9F /* ViewController.m */,
+				28C5876C1E7FBFAC006D0D9F /* TViewController.h */,
+				28C5876D1E7FBFAC006D0D9F /* TViewController.m */,
 				28C5876F1E7FBFAC006D0D9F /* Main.storyboard */,
 				28C587721E7FBFAC006D0D9F /* Assets.xcassets */,
 				28C587741E7FBFAC006D0D9F /* LaunchScreen.storyboard */,
@@ -234,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28C587B01E7FBFC8006D0D9F /* YPCarthage.h in Headers */,
-				28C587BC1E7FC01A006D0D9F /* ViewController.h in Headers */,
+				28C587BC1E7FC01A006D0D9F /* TViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +303,6 @@
 				28C587991E7FBFC8006D0D9F /* Sources */,
 				28C5879A1E7FBFC8006D0D9F /* Frameworks */,
 				28C5879B1E7FBFC8006D0D9F /* Headers */,
-				28C5879C1E7FBFC8006D0D9F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -419,13 +418,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28C5879C1E7FBFC8006D0D9F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		28C587A41E7FBFC8006D0D9F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -440,7 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C5876E1E7FBFAC006D0D9F /* ViewController.m in Sources */,
+				28C5876E1E7FBFAC006D0D9F /* TViewController.m in Sources */,
 				28C5876B1E7FBFAC006D0D9F /* AppDelegate.m in Sources */,
 				28C587681E7FBFAC006D0D9F /* main.m in Sources */,
 			);
@@ -466,7 +458,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C587BD1E7FC020006D0D9F /* ViewController.m in Sources */,
+				28C587BD1E7FC020006D0D9F /* TViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

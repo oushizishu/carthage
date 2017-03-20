@@ -6,19 +6,23 @@
 //  Copyright © 2017年 xinyapeng. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "TViewController.h"
 
-@interface ViewController ()
+@interface TViewController ()
 
 @end
 
-@implementation ViewController
+@implementation TViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"i am carthage");
     
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)test {
+    NSLog(@"123123");
 }
 
 
