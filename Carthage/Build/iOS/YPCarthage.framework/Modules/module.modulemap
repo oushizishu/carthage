@@ -1,0 +1,6 @@
+framework module YPCarthage {
+  umbrella header "YPCarthage.h"
+
+  export *
+  module * { export * }
+}
